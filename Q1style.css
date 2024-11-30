@@ -1,0 +1,28 @@
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-list li {
+    margin: 5px 0;
+}
+
+
+.link-list a {
+    text-decoration: none;
+    color: blue; 
+    font-size: 18px;
+    transition: color 0.3s; 
+}
+
+
+.link-list a:hover {
+    color: red; 
+}
+
+
+.link-list a:active {
+    color: green;
+}
