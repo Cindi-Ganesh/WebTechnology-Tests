@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; 
+}
+
+
+.navbar {
+    display: flex; 
+    gap: 20px;
+    background-color: #fff; 
+    padding: 10px 20px; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Link styles */
+.navbar a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.navbar a:hover {
+    color: #007bff; 
+}
